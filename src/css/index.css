@@ -1,0 +1,184 @@
+/*@import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";*/
+
+.image-gallery {
+    width: 100px;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.container {
+    padding-top: 10px;
+}
+
+.menu {
+    padding-top: 110px;
+}
+
+.menuLinks {
+    border-bottom: 2px solid #41a798;
+    cursor: pointer;
+}
+
+/* START - animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    100% {
+        transform: translateX(0);
+    }
+    0% {
+        transform: translateX(100%);
+    }
+}
+/* END - animations */
+
+/* START - Personal page animation */
+.animateHeader {
+    animation: 2s ease 0s 1 fadeIn;
+}
+
+.animateBody {
+    animation: 1s ease 0s 1 fadeIn;
+}
+
+.animateTravel {
+    animation: 4s ease 0s 1 fadeIn;
+}
+/* END - Personal page animation */
+
+/* START - Main page row style */
+.profileLink {
+    background-color: firebrick;
+    font-size: 80px;
+    color: #444444;
+    animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+
+.profileLink:hover {
+    background-color: #41a798;
+    color: #ffffff;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.travelLink {
+    background-color: cadetblue;
+    font-size: 80px;
+    color: #444444;
+    animation: 2s ease-out 0s 1 slideInFromRight;
+}
+
+.travelLink:hover {
+    background-color: #41a798;
+    color: #ffffff;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.bitesLink {
+    background-color: darkgoldenrod;
+    font-size: 80px;
+    color: #444444;
+    animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+
+.bitesLink:hover {
+    background-color: #41a798;
+    color: #ffffff;
+    cursor: pointer;
+    font-style: italic;
+}
+/* END - Main page row style */
+
+/* START - Travel page style */
+
+.photoGallery {
+    width: 1000px;
+}
+
+.image-gallery {
+    width: 45%;
+    height: auto;
+}
+
+.lightbox-img-container {
+    padding: 2px;
+}
+
+.galleryContainer {
+    max-height: 70vh;
+}
+
+.lightbox-container {
+    width: 917px;
+    max-height: inherit;
+    overflow-y: scroll;
+}
+
+.loadMore {
+    padding-bottom: 20px;
+}
+
+/* END - Travel page style */
+
+
+/* START - Bites page style */
+.bitesLabel {
+    width: 100px;
+    cursor: context-menu;
+}
+
+.dropdownSelection {
+    padding-top: 20px;
+}
+
+.selection {
+    width: 500px;
+}
+
+.recipe {
+    padding-top: 30px;
+}
+
+.recipeDetails {
+    padding-top: 20px;
+}
+
+.ingredients {
+    width: 100px;
+}
+
+.listAlignment {
+    text-align: justify;
+}
+/* END - Bites page style */
+
+
+.footer {
+    position: center;
+    bottom: 0;
+    /*left: 0;*/
+}
