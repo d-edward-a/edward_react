@@ -34,19 +34,19 @@ function TravelForHome() {
         document.getElementById("navbar").scrollIntoView({ behavior: "smooth" });
     }
 
-    function changeColor() {
-        document.getElementById("for-body").style.background = "#808080";
-        document.getElementById("my-profile").style.opacity = "0.1";
-        document.getElementById("foodie").style.opacity = "0.1";
-        document.getElementById("main-footer").style.opacity = "0.1";
-    }
+    // function changeColor() {
+    //     document.getElementById("for-body").style.background = "#808080";
+    //     document.getElementById("my-profile").style.opacity = "0.1";
+    //     document.getElementById("foodie").style.opacity = "0.1";
+    //     document.getElementById("main-footer").style.opacity = "0.1";
+    // }
 
-    function revertColor() {
-        document.getElementById("for-body").style.background = "none";
-        document.getElementById("my-profile").style.opacity = "1";
-        document.getElementById("foodie").style.opacity = "1";
-        document.getElementById("main-footer").style.opacity = "1";
-    }
+    // function revertColor() {
+    //     document.getElementById("for-body").style.background = "none";
+    //     document.getElementById("my-profile").style.opacity = "1";
+    //     document.getElementById("foodie").style.opacity = "1";
+    //     document.getElementById("main-footer").style.opacity = "1";
+    // }
 
     return (
         // <div className="travel-home" id="travel-home" onMouseOver={changeColor} onMouseOut={revertColor}>

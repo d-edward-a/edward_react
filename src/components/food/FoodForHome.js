@@ -2,29 +2,29 @@ import React from "react";
 import '../food/FoodForHome.css';
 
 function FoodForHome() {
-    function scrollToTravel() {
-        document.getElementById("foodie").scrollIntoView({ behavior: "smooth" });
-    }
+    // function scrollToTravel() {
+    //     document.getElementById("foodie").scrollIntoView({ behavior: "smooth" });
+    // }
 
     function scrollToTravel() {
         document.getElementById("travel-home").scrollIntoView({ behavior: "smooth" });
     }
 
-    function changeColor() {
-        document.getElementById("foodie").style.background = "#ffffff";
-        document.getElementById("for-body").style.background = "#808080";
-        document.getElementById("travel-home").style.opacity = "0.1";
-        document.getElementById("my-profile").style.opacity = "0.1";
-        document.getElementById("main-footer").style.opacity = "0.1";
-    }
+    // function changeColor() {
+    //     document.getElementById("foodie").style.background = "#ffffff";
+    //     document.getElementById("for-body").style.background = "#808080";
+    //     document.getElementById("travel-home").style.opacity = "0.1";
+    //     document.getElementById("my-profile").style.opacity = "0.1";
+    //     document.getElementById("main-footer").style.opacity = "0.1";
+    // }
 
-    function revertColor() {
-        document.getElementById("foodie").style.background = "rgba(62, 182, 80, 0.05)";
-        document.getElementById("for-body").style.background = "none";
-        document.getElementById("travel-home").style.opacity = "1";
-        document.getElementById("my-profile").style.opacity = "1";
-        document.getElementById("main-footer").style.opacity = "1";
-    }
+    // function revertColor() {
+    //     document.getElementById("foodie").style.background = "rgba(62, 182, 80, 0.05)";
+    //     document.getElementById("for-body").style.background = "none";
+    //     document.getElementById("travel-home").style.opacity = "1";
+    //     document.getElementById("my-profile").style.opacity = "1";
+    //     document.getElementById("main-footer").style.opacity = "1";
+    // }
 
     return (
         // <div className="foodie" id="foodie" onMouseOver={changeColor} onMouseOut={revertColor}>

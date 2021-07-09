@@ -2,7 +2,7 @@
     /*width: 1049px;*/
     /* padding-top: 70px; */
     margin: auto;
-    height: 100vh;
+    height: 96vh;
     position: relative;
 }
 
@@ -33,6 +33,7 @@
     /* border-top-right-radius: 5px;
     border-top-left-radius: 5px; */
     color: #ffffff;
+    cursor: pointer;
 }
 
 #arrowAnim {

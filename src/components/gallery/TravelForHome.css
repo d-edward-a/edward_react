@@ -58,23 +58,25 @@
 .back-to-profile {
     position: absolute;
     /* top: 70px; */
-    right: 5%;
-    background: rgba(1, 82, 73, 1);
-    width: 90px;
-    /* border-top-right-radius: 5px;
-    border-top-left-radius: 5px; */
-    color: #ffffff;
-}
-
-.to-food {
-    position: absolute;
-    bottom: 0;
     left: 5%;
     background: rgba(1, 82, 73, 1);
     width: 90px;
     /* border-top-right-radius: 5px;
     border-top-left-radius: 5px; */
     color: #ffffff;
+    cursor: pointer;
+}
+
+.to-food {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    background: rgba(1, 82, 73, 1);
+    width: 90px;
+    /* border-top-right-radius: 5px;
+    border-top-left-radius: 5px; */
+    color: #ffffff;
+    cursor: pointer;
 }
 
 #arrowAnim {
