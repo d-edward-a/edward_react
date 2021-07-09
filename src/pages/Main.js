@@ -29,10 +29,10 @@ class Main extends React.Component {
         return (
             <Container fluid>
                 <Row className="justify-content-center">
-                    <Col md={"auto"} className="animateHeader">
+                    <Col sm={"auto"} className="animateHeader">
                         <Media>
                             <Image
-                                className="logo"
+                                className="logo img-fluid"
                                 width={450}
                                 src={logo}
                                 alt="Edward"

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.profile-details {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    /*color: #ffffff;*/
+    height: 400px;
+    /*background: rgba(0, 0, 0, 0.1);*/
+}
+
+.work-details {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    /*color: #ffffff;*/
+    height: 700px;
+    background: rgba(0, 0, 0, 0.03);
+}

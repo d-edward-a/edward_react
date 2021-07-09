@@ -7,6 +7,8 @@
 
 body {
     overflow-x: hidden;
+    background: rgb(2,0,36);
+    /*background: linear-gradient(192deg,rgba(2,0,36,0.8855917366946778) 0%, rgba(9,121,41,0.6727065826330532) 45%, rgba(0,212,255,0.48783263305322133) 100%);*/
 }
 
 .logo {
@@ -145,7 +147,7 @@ body {
 /* END - Travel page style */
 
 
-/* START - Bites page style */
+/* START - Foodie page style */
 .bitesLabel {
     width: 100px;
     cursor: context-menu;
@@ -174,7 +176,7 @@ body {
 .listAlignment {
     text-align: justify;
 }
-/* END - Bites page style */
+/* END - Foodie page style */
 
 
 .footer {
